@@ -1,0 +1,133 @@
+<!DOKTYPE html>
+    <html>
+     <head>
+        <title>happy or sad</title>
+          <meta charset="UTF-8">
+          <meta viewport="width=divice-width inital-scale=1.0">
+
+
+          <style>
+              
+              html {
+                background-color: aquamarine;
+                text-align: center;
+              }
+              button {
+                width: 90px;
+                height: 90px;
+                font-size: 20px;
+                border: none;
+                box-shadow: 4px 4px #0f0e0e67;
+              }
+              img {
+                width: 320;
+              }
+              h2 {
+                color: rgb(0, 51, 0);
+              }
+              button {
+                padding: 10px;
+                background-color:#222;
+                color: #e1e1e1;
+                margin-top: 10px;
+                margin:5px 30px 5px 30px;
+              
+              }
+
+              @keyframes bg {
+                0% {
+                  background-color: pink;
+                }
+                10% {
+                  background-color: rgb(2, 53, 17);
+                }
+                20% {
+                  background-color: rgb(56, 1, 10);
+                }
+                30% {
+                  background-color: rgb(133, 7, 28);
+                }
+                40% {
+                  background-color: rgb(63, 3, 48);
+                }
+                50% {
+                  background-color: rgb(255, 146, 4);
+                }
+                60% {
+                  background-color: rgba(211, 247, 8, 0.959);
+                }
+                70% {
+                  background-color: rgba(240, 6, 209, 0.904);
+                }
+                80% {
+                  background-color: rgb(26, 211, 125);
+                }
+                90% {
+                  background-color: rgb(27, 24, 212);
+                }
+                100% {
+                  background-color: green;
+                }
+               
+              }
+           
+                a:hover {
+                  color: red;
+                }
+                button:hover {
+                  width: 120px;
+                  letter-spacing: 5px;
+                  box-shadow:20px 15px #0f0e0e67; 
+                  animation-duration:7s;
+                  animation-name: bg;                     
+                }
+                
+
+          </style>
+
+     </head>
+
+     <body>
+
+      <h2><a>make he happy</a></h2>
+      <div>
+
+          <img id="asb" src="https://cdn.pixabay.com/photo/2020/12/27/20/24/smile-5865208_1280.png" alt="happy">
+
+        <form>
+          <div class="aer">
+            <button class="hover" onclick="roshan(true);return false">happy</button>
+            <button class="hover" onclick="roshan(false);return false">sad</button>
+         </div>
+      </form>
+      </div>
+
+       <script>
+               function roshan(value){
+                if (value==true){
+
+                  document.querySelector('html').style=''
+                   asb.src='https://cdn.pixabay.com/photo/2020/12/27/20/24/smile-5865208_1280.png'
+                   document.q
+
+                }else{
+
+                  document.querySelector('html').style='background:gray'
+                   asb.src='https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Sad-Face-Emoji-480x480.png'
+                   
+
+                }
+                
+
+
+              }
+
+         
+
+
+
+       </script>
+
+
+     </body>
+    </html>
